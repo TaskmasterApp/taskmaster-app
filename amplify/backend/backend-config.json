@@ -18,7 +18,7 @@
     }
   },
   "auth": {
-    "taskmasterapp43072c12": {
+    "taskmasterapp7333823c": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -46,8 +46,8 @@
   "hosting": {
     "amplifyhosting": {
       "service": "amplifyhosting",
-      "providerPlugin": "awscloudformation",
-      "type": "manual"
+      "type": "cicd",
+      "lastPushTimeStamp": "2022-04-14T02:25:10.177Z"
     }
   }
 }

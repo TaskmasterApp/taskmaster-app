@@ -1,24 +1,37 @@
 {
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-taskmasterapp-production-200256-authRole",
+      "UnauthRoleArn": "arn:aws:iam::534833667818:role/amplify-taskmasterapp-production-200256-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::534833667818:role/amplify-taskmasterapp-production-200256-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-taskmasterapp-production-200256-deployment",
+      "UnauthRoleName": "amplify-taskmasterapp-production-200256-unauthRole",
+      "StackName": "amplify-taskmasterapp-production-200256",
+      "StackId": "arn:aws:cloudformation:us-east-1:534833667818:stack/amplify-taskmasterapp-production-200256/a1d2ce20-bb8e-11ec-ae45-12df557586a9",
+      "AmplifyAppId": "d1drg6wtcibuc"
+    }
+  },
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-taskmasterapp-dev-202533-authRole",
-      "UnauthRoleArn": "arn:aws:iam::534833667818:role/amplify-taskmasterapp-dev-202533-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::534833667818:role/amplify-taskmasterapp-dev-202533-authRole",
+      "AuthRoleName": "amplify-taskmasterapp-dev-205649-authRole",
+      "UnauthRoleArn": "arn:aws:iam::534833667818:role/amplify-taskmasterapp-dev-205649-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::534833667818:role/amplify-taskmasterapp-dev-205649-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-taskmasterapp-dev-202533-deployment",
-      "UnauthRoleName": "amplify-taskmasterapp-dev-202533-unauthRole",
-      "StackName": "amplify-taskmasterapp-dev-202533",
-      "StackId": "arn:aws:cloudformation:us-east-1:534833667818:stack/amplify-taskmasterapp-dev-202533/a03de840-bac8-11ec-b2e6-12647407a613",
-      "AmplifyAppId": "d1rtdd7xqk00od"
+      "DeploymentBucketName": "amplify-taskmasterapp-dev-205649-deployment",
+      "UnauthRoleName": "amplify-taskmasterapp-dev-205649-unauthRole",
+      "StackName": "amplify-taskmasterapp-dev-205649",
+      "StackId": "arn:aws:cloudformation:us-east-1:534833667818:stack/amplify-taskmasterapp-dev-205649/28a7b210-bb96-11ec-a8a5-0e0bc9a574ad",
+      "AmplifyAppId": "d2unr0ypu50gn9"
     },
     "categories": {
       "auth": {
-        "taskmasterapp43072c12": {}
+        "taskmasterapp7333823c": {}
       },
       "hosting": {
         "amplifyhosting": {
-          "appId": "d1rtdd7xqk00od",
-          "type": "manual"
+          "appId": "d2unr0ypu50gn9",
+          "type": "cicd"
         }
       }
     }
