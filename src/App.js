@@ -7,7 +7,6 @@ import awsExports from "./aws-exports";
 import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import * as mapboxgl from 'mapbox-gl';
 import mapboxgl from 'mapbox-gl/dist/mapbox-gl'
 
 Amplify.configure(awsExports);
